@@ -63,6 +63,9 @@ Az adatlapja szerint a tápfeszültség alatt marad nagyjából 1,5V-tal a maxim
 
 Az áramváltó 1:1000 áttételű ( névleges kimeneti áram 5mA -> 5A hatására ). Az első fokozat erősítése: 100k/10k = 10. A fenti 1V kimenet 100mV bemenetnél adódik (e fölött már vágja a jelet a kapcsolás). 100ohm bemeneti ellenálláson 1mA áram hatására 100mV feszültség adódik. Innen következik, hogy az áramváltón 1A-nél nagyobb áramok esetében az áramkör telítődik, torzított jelet ad a kimenetén. 
 
+### TASMOTA
+A bemenetet ADC-CTpower-re kell állítani a "Configuration" menüben, majd konzolban:
+ADCParam 17,0,212,0.235,0
 
 
 

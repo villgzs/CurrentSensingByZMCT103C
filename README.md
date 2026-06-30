@@ -2,7 +2,7 @@
 
 Original PCB
 
-![]()
+![pic/ZMCT103C_module.png]()  
 
 Modified PCB
 
